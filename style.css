@@ -1,0 +1,45 @@
+*{
+  list-style: none;  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+     font-family: monospace;
+     background-color: papayawhip;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 8px;
+}
+
+.header  ul{
+    display: flex;
+    gap: 8px;
+}
+
+.header .list a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: blue;
+    background-color: #fff;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.header .list a:hover{
+    background-color: coral;
+    color: aqua;
+}
+
+
+.header .logo{
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background-color: #fff;
+    padding: 4px 32px;
+    text-transform: uppercase;
+}
